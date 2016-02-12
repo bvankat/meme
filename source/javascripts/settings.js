@@ -77,7 +77,7 @@ var MEME_SETTINGS = {
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
     {text: 'Omaha World-Herald (white)', value: 'source/images/logo-owh-white.png', data: ''},
-    {text: 'Omaha World-Herald (black)', value: 'source/images/logo-owh-white.png', data: ''},
+    {text: 'Omaha World-Herald (black)', value: 'source/images/logo-owh-black.png', data: ''},
   ],
 
   width: 755 // Canvas rendering width.
