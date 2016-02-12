@@ -9,16 +9,13 @@ var MEME_SETTINGS = {
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
   fontFamilyOpts: [{
-    text: 'Oswald - statesman.com',
-    value: 'Oswald'
+    text: 'Lato - dataomaha.com',
+    value: 'Lato'
   }, {
-    text: 'Georgia - politifact.com',
+    text: 'Georgia',
     value: 'Georgia'
-  }, {
-    text: 'Ubuntu - hookem.com',
-    value: 'Ubuntu'
-  }],
-
+  }
+  
   // Font size of main headline:
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
@@ -73,7 +70,7 @@ var MEME_SETTINGS = {
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/statesman.png',
+  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/logo-owh-white.png',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
