@@ -12,11 +12,8 @@ var MEME_SETTINGS = {
     text: 'Oswald - omaha.com',
     value: 'Oswald'
   }, {
-    text: 'Georgia - politifact.com',
+    text: 'Georgia',
     value: 'Georgia'
-  }, {
-    text: 'Ubuntu - hookem.com',
-    value: 'Ubuntu'
   }],
 
   // Font size of main headline:
@@ -80,7 +77,7 @@ var MEME_SETTINGS = {
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
     {text: 'Omaha World-Herald (white)', value: 'source/images/logo-owh-white.png', data: ''},
-    {text: 'Omaha World-Herald (black)', value: 'http://dataomaha.com/media/logo-owh-white.png', data: ''},
+    {text: 'Omaha World-Herald (black)', value: 'source/images/logo-owh-white.png', data: ''},
   ],
 
   width: 755 // Canvas rendering width.
