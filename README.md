@@ -1,10 +1,10 @@
-# Statesman meme generator
+# Omaha.com social media share images generator
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+A direct clone of the [Austin American Statesman's meme generator](https://github.com/statesman/meme) which is a lightly-modified fork of the [Vox meme generator](https://github.com/voxmedia/meme). They say it has been modified to work without Ruby (except Compass, which is required to run the build process).
 
-The Statesman's meme generator is a lightly-modified fork of the [Vox meme generator](https://github.com/voxmedia/meme). It has been modified to work without Ruby (except Compass, which is required to run the build process).
+That it's working here at all is something of a miracle.
 
-Assets are now built using Grunt, which transpiles the SASS files and concatenates/minifies the JavaScript. We modified the app this way to make it more easily deployable on our internal infrastructure.
+All of this stuff is from the glorious people at statesman.com: 
 
 ![screenshot](readme.png)
 
