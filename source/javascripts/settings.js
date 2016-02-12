@@ -73,7 +73,7 @@ var MEME_SETTINGS = {
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/statesman.png',
+  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/logo-owh-white.png',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
